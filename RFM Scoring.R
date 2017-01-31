@@ -4,7 +4,7 @@
 
 
 library(readr)
-df <- as.data.frame(read_csv("~/WORK/Product Development/Customer Segmentation/superstore.csv",
+df <- as.data.frame(read_csv("superstore.csv",
                              col_types = cols(Order_Date = col_date(format = "%m/%d/%Y"))))
 
 startDate =  min(df$Order_Date) 
