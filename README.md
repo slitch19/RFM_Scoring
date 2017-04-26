@@ -1,5 +1,4 @@
-# RFM_Scoring
-RFM scoring in R
+About
 
 This document manipulates customer transaction data to derive a RFM score per customer. RFM scoring can be used as a customer segmentation technique. RFM stands for Recency, Frequency and Monetary.
 
