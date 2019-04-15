@@ -41,6 +41,7 @@ getRFMvalues = function(df, startDate, endDate, tIDColName, tDateColName, tAmoun
   
   #order the dataframe by date descendingly
   df = df[order(df[,tDateColName],decreasing = TRUE),]
+  df = as.dataframe(df)
   
   #remove the record before the start data and after the end Date
   df = df[df[,tDateColName]>= startDate,]
