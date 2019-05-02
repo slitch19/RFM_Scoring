@@ -1,8 +1,4 @@
 
-# REFERENCE FOR THE getRFMvalues function (row 12- 77)
-# http://www.dataapple.net/wp-content/uploads/2013/12/RFM_Analysis_R_Source_Codes_V1.3.txt
-
-
 library(readr)
 df <- as.data.frame(read_csv("superstore.csv",
                              col_types = cols(Order_Date = col_date(format = "%m/%d/%Y"))))
